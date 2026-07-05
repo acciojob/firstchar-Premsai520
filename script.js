@@ -1,11 +1,6 @@
 function firstChar(text) {
   // your code here
-	for(let s of text){
-		if(s!=" "){
-			return s
-		}
-	}
-	return ""
+	return text.trim().charAt(0)
 	
 }
 
