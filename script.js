@@ -1,5 +1,10 @@
 function firstChar(text) {
   // your code here
+	if(text.length>1 && text[0]!=" "){
+		return text[0]
+	} 
+	return ""
+	
 }
 
 // Do not change the code below
