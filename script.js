@@ -1,8 +1,10 @@
 function firstChar(text) {
   // your code here
-	if(text.length>1 && text[0]!=" "){
-		return text[0]
-	} 
+	for(let s of text){
+		if(s!=" "){
+			return s
+		}
+	}
 	return ""
 	
 }
